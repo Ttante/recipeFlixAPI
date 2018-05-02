@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "dinner",
+    "password": "d33n3rT!me",
+    "database": "dinner",
+    "host": "dinner.cvxskfstbker.us-east-1.rds.amazonaws.com",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "dinner",
+    "password": "d33n3rT!me",
+    "database": "dinner",
+    "host": "dinner.cvxskfstbker.us-east-1.rds.amazonaws.com",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "dinner",
+    "password": "d33n3rT!me",
+    "database": "dinner",
+    "host": "dinner.cvxskfstbker.us-east-1.rds.amazonaws.com",
+    "dialect": "postgres"
+  }
+}

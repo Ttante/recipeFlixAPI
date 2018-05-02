@@ -1,0 +1,17 @@
+{
+  "name": "recipeflixapi",
+  "version": "0.0.1",
+  "description": "api for recipeFlix",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ttante",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "pg": "^7.4.1",
+    "sequelize": "^4.37.6",
+    "sequelize-cli": "^4.0.0"
+  }
+}
