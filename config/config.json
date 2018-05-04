@@ -1,23 +1,41 @@
 {
   "development": {
     "username": "dinner",
-    "password": "d33n3rT!me",
+    "password": "",
     "database": "dinner",
     "host": "dinner.cvxskfstbker.us-east-1.rds.amazonaws.com",
-    "dialect": "postgres"
+    "dialect": "postgres",
+    "pool": {
+      "idle": 20000,
+      "max": 5,
+      "min": 0,
+      "acquire": 20000
+    }
   },
   "test": {
     "username": "dinner",
-    "password": "d33n3rT!me",
+    "password": "",
     "database": "dinner",
     "host": "dinner.cvxskfstbker.us-east-1.rds.amazonaws.com",
-    "dialect": "postgres"
+    "dialect": "postgres",
+    "pool": {
+      "idle": 20000,
+      "max": 5,
+      "min": 0,
+      "acquire": 20000
+    }
   },
   "production": {
     "username": "dinner",
-    "password": "d33n3rT!me",
+    "password": "",
     "database": "dinner",
     "host": "dinner.cvxskfstbker.us-east-1.rds.amazonaws.com",
-    "dialect": "postgres"
+    "dialect": "postgres",
+    "pool": {
+      "idle": 20000,
+      "max": 5,
+      "min": 0,
+      "acquire": 20000
+    }
   }
 }
