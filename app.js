@@ -10,8 +10,15 @@ const models = require('./models/');
 
 // route section
 const router = express.Router(); 
+
 require( './routes/user' )( router, models.User);
 require( './routes/recipes' )( router, models.Recipe);
+
+router.get('/', function(req, res) {
+	res.json({
+		"message": "Welcome to the recipeFlix API! Add '\/recipes' to the URL for deliciousness."
+	})
+})
 
 // Register router, to prefix all routes w/ '/api' use: app.use('/api', router);
 app.use(router);
